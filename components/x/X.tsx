@@ -7,6 +7,7 @@ import * as React from "react"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import Image from 'next/image';
 
 export function X() {
     return (
@@ -35,17 +36,17 @@ export function X() {
                 <section className="w-full py-12 md:py-24 lg:py-32 border-b">
                     <div className="container flex flex-col items-center gap-4 px-4 text-center md:gap-10 md:px-6">
                         <div className="space-y-2">
-                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I&apos;m John Doe</h1>
+                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I&apos;m Max</h1>
                             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                I build things for the web. I&apos;m a frontend engineer with a passion for UI/UX.
+                                I build things for the web. I&apos;m a software developer with a passion for computers.
                             </p>
                         </div>
-                        <img
+                        <Image
                             alt="Avatar"
                             className="mx-auto rounded-full border border-gray-200 aspect-square overflow dark:border-gray-800"
-                            height="200"
-                            src="/placeholder.svg"
-                            width="200"
+                            height={200}
+                            src="https://avatars.githubusercontent.com/u/80784184"
+                            width={200}
                         />
                     </div>
                 </section>
@@ -61,30 +62,30 @@ export function X() {
                             <div className="space-y-4">
                                 <Link
                                     className="inline-flex h-9 items-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-                                    href="#"
+                                    href="https://github.com/olsonperrensen/"
                                 >
                                     Follow on GitHub
                                 </Link>
                             </div>
                             <div className="grid gap-4 md:gap-8">
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">Next.js Blog Starter with MDX</h3>
+                                    <h3 className="text-xl font-bold">SBDINC Forms</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        Kickstart your blog with this minimal starter. Features include syntax highlighting, component MDX,
-                                        and a custom theme.
+                                        Sales Orders managing portal. Features include invoice scanning, vendor registration,
+                                        and a track & trace of Purchase Orders & Good Receipts.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">Tailwind CSS Typography Plugin</h3>
+                                    <h3 className="text-xl font-bold">Cats N Dogs Surfing</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        A highly customizable typography plugin for Tailwind CSS. It provides a set of CSS utility classes
-                                        to style your typography.
+                                        A pet adoption website for animal enthusiasts. It provides a set of functionalities typical of a web shop.
+                                        Object Orient Programming was used here. Made with PHP.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">Shards Vue - A High-Quality Vue.js UI Toolkit</h3>
+                                    <h3 className="text-xl font-bold">TrainAM Vietnamese Train App</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        Shards Vue is a free, beautiful, and high-quality Vue.js UI kit based on Shards.
+                                        TrainAM is a free, beautiful, and high-quality Angular & Django train purchase platform based on the Belgian NMBS app.
                                     </p>
                                 </div>
                             </div>
@@ -119,9 +120,9 @@ export function X() {
                                 </p>
                             </div>
                             <div className="grid gap-1">
-                                <h3 className="text-lg font-bold">Vue.js</h3>
+                                <h3 className="text-lg font-bold">Angular</h3>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                                    A progressive JavaScript framework for building user interfaces.
+                                    A TypeScript library for building user interfaces.
                                 </p>
                             </div>
                             <div className="grid gap-1">
@@ -129,9 +130,9 @@ export function X() {
                                 <p className="text-sm text-gray-500 dark:text-gray-400">A React framework for production.</p>
                             </div>
                             <div className="grid gap-1">
-                                <h3 className="text-lg font-bold">Tailwind CSS</h3>
+                                <h3 className="text-lg font-bold">.NET</h3>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                                    A utility-first CSS framework for rapid UI development.
+                                    A multipurpose framework developed by Microsoft for rapid development.
                                 </p>
                             </div>
                         </div>
@@ -157,7 +158,7 @@ export function X() {
                 </section>
             </main>
             <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-                <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Acme Inc. All rights reserved.</p>
+                <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Iturria. All rights reserved.</p>
                 <nav className="sm:ml-auto flex gap-4 sm:gap-6">
                     <Link className="text-xs hover:underline underline-offset-4" href="#">
                         Terms of Service
