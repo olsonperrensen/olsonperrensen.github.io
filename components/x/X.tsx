@@ -161,7 +161,7 @@ export function X() {
             <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
                 <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Iturria. All rights reserved.</p>
                 <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-                    <Link className="text-xs hover:underline underline-offset-4" href="https://media.licdn.com/dms/document/media/D4D2DAQELNJHRoc_tjQ/profile-treasury-document-pdf-analyzed/0/1711815161191?e=1713398400&v=beta&t=PmSqGeWJ5iVoe8z8y1ZCl67n5qdCzUx-lQ-oTfC-pqU">
+                    <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/in/mxi-dev/overlay/1711815166798/single-media-viewer/">
                         Curriculum Vitae
                     </Link>
                     <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/in/mxi-dev/">
