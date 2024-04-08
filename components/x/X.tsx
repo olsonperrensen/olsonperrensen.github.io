@@ -4,11 +4,9 @@
  */
 import Link from "next/link"
 import * as React from "react"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
 import Image from 'next/image';
 import profilePic from "@/public/my-image.jpg"
+import ContactForm from "../ContactForm";
 
 export function X() {
     return (
@@ -140,24 +138,7 @@ export function X() {
                         </div>
                     </div>
                 </section>
-                <section className="w-full py-12 md:py-24 lg:py-32 border-t">
-                    <div className="container grid items-center justify-center gap-6 px-4 text-center md:px-6 lg:gap-10">
-                        <div className="space-y-3">
-                            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Contact Me</h2>
-                            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                Have a question or want to work together? Send me a message.
-                            </p>
-                        </div>
-                        <div className="mx-auto w-full max-w-sm space-y-2">
-                            <form action="mailto:blgiumblgium@gmail.com" method="post" className="grid gap-2">
-                                <Input placeholder="Email" type="email" />
-                                <Input placeholder="Subject" type="text" />
-                                <Textarea placeholder="Message" />
-                                <Button type="submit">Send</Button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
+                <ContactForm />
             </main>
             <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
                 <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Iturria. All rights reserved.</p>
