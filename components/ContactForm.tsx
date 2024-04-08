@@ -93,10 +93,11 @@ export default function ContactForm(params: any) {
                     </p>
                 </div>
                 <div className="mx-auto w-full max-w-sm space-y-2">
-                    <form onSubmit={handleSubmit}>
-                        <Input type="text" id="emailField" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
-                        <Input type="text" id="subjectField" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Subject" />
-                        <Button type="submit">Submit</Button>
+                    <form className="grid gap-2" onSubmit={handleSubmit}>
+                        <Input id="emailField" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="email" />
+                        <Input placeholder="Subject" type="text" />
+                        <Textarea id="subjectField" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="Message" />
+                        <Button type="submit">Send</Button>
                     </form>
                 </div>
             </div>
