@@ -78,7 +78,7 @@ export default function ContactForm(params: any) {
         let sanitizedSubject = subject.replace(/<[^>]*>?/gm, '');
 
         // Send the form data securely or perform any other necessary actions
-        alert('Please send me your inqury via mail directly. Thx!')
+        alert('I only accept LinkedIn requests at the moment. Thx!')
         // Reset input fields after submission
         setEmail('');
         setSubject('');
