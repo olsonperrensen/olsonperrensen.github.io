@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import Image from 'next/image';
+import profilePic from "@/public/my-image.jpg"
 
 export function X() {
     return (
@@ -45,7 +46,7 @@ export function X() {
                             alt="Avatar"
                             className="mx-auto rounded-full border border-gray-200 aspect-square overflow dark:border-gray-800"
                             height={200}
-                            src="/public/my-image.jpg"
+                            src={profilePic}
                             width={200}
                         />
                     </div>
