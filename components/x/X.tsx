@@ -73,20 +73,20 @@ export function X() {
                                     <h3 className="text-xl font-bold">Sbdinc Forms</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
                                         Sales Orders managing portal. Features include invoice scanning, vendor registration,
-                                        and a track & trace of Purchase Orders & Good Receipts.
+                                        and a track & trace of Purchase Orders & Good Receipts. A sweet blend of <strong>Angular</strong>, <strong>Node.js</strong> and <strong>FastAPI</strong> for fluid performance.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
                                     <h3 className="text-xl font-bold">Cats & Dogs Surfing</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
                                         A pet adoption website for animal enthusiasts. It provides a set of functionalities typical of a web shop.
-                                        Object Orient Programming was used here. Made with PHP.
+                                        Object Orient Programming was used here. Made with <strong>PHP</strong>.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
                                     <h3 className="text-xl font-bold">TrainAM</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        Vietnamese Train App. TrainAM is a free, beautiful, and high-quality Angular & Django train purchase platform based on the Belgian NMBS app.
+                                        Vietnamese Train App. TrainAM is a free, beautiful, and high-quality <strong>Angular</strong> & <strong>Django</strong> train purchase platform based on the Belgian <em>NMBS</em> app.
                                     </p>
                                 </div>
                             </div>
