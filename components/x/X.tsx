@@ -45,7 +45,7 @@ export function X() {
                             alt="Avatar"
                             className="mx-auto rounded-full border border-gray-200 aspect-square overflow dark:border-gray-800"
                             height={200}
-                            src="https://avatars.githubusercontent.com/u/80784184"
+                            src="/public/my-image.jpg"
                             width={200}
                         />
                     </div>
@@ -69,23 +69,23 @@ export function X() {
                             </div>
                             <div className="grid gap-4 md:gap-8">
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">SBDINC Forms</h3>
+                                    <h3 className="text-xl font-bold">Sbdinc Forms</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
                                         Sales Orders managing portal. Features include invoice scanning, vendor registration,
                                         and a track & trace of Purchase Orders & Good Receipts.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">Cats N Dogs Surfing</h3>
+                                    <h3 className="text-xl font-bold">Cats & Dogs Surfing</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
                                         A pet adoption website for animal enthusiasts. It provides a set of functionalities typical of a web shop.
                                         Object Orient Programming was used here. Made with PHP.
                                     </p>
                                 </div>
                                 <div className="grid gap-1">
-                                    <h3 className="text-xl font-bold">TrainAM Vietnamese Train App</h3>
+                                    <h3 className="text-xl font-bold">TrainAM</h3>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                                        TrainAM is a free, beautiful, and high-quality Angular & Django train purchase platform based on the Belgian NMBS app.
+                                        Vietnamese Train App. TrainAM is a free, beautiful, and high-quality Angular & Django train purchase platform based on the Belgian NMBS app.
                                     </p>
                                 </div>
                             </div>
