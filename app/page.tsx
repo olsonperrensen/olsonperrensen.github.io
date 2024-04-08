@@ -1,12 +1,8 @@
 import React from 'react';
+import { X } from '@/components/x/X';
 
 const LandingPage: React.FC = () => {
-  return (
-    <div>
-      <h1>Welcome to my Landing Page</h1>
-      <p>This is a basic landing page built with Next.js and TypeScript.</p>
-    </div>
-  );
+  return <X />
 };
 
 export default LandingPage;
