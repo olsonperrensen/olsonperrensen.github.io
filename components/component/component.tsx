@@ -34,9 +34,9 @@ export function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32 border-b">
           <div className="container flex flex-col items-center gap-4 px-4 text-center md:gap-10 md:px-6">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I'm John Doe</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I&apos;m John Doe</h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I build things for the web. I'm a frontend engineer with a passion for UI/UX.
+                I build things for the web. I&apos;m a frontend engineer with a passion for UI/UX.
               </p>
             </div>
             <img
@@ -54,7 +54,7 @@ export function Component() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Here are a few projects I've been working on. Want to see more? Follow me on GitHub.
+                  Here are a few projects I&apos;ve been working on. Want to see more? Follow me on GitHub.
                 </p>
               </div>
               <div className="space-y-4">
@@ -148,7 +148,7 @@ export function Component() {
               <form className="grid gap-2">
                 <Input placeholder="Email" type="email" />
                 <Input placeholder="Subject" type="text" />
-                <Textarea placeholder="Message" rows="4" />
+                <Textarea placeholder="Message" />
                 <Button type="submit">Send</Button>
               </form>
             </div>
@@ -171,7 +171,7 @@ export function Component() {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
