@@ -17,16 +17,16 @@ export function X() {
                     <span className="sr-only">Acme Inc</span>
                 </Link>
                 <nav className="ml-auto flex gap-4 sm:gap-6">
-                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#projects">
                         Projects
                     </Link>
-                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#skills">
                         Skills
                     </Link>
-                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#about">
                         About
                     </Link>
-                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+                    <Link className="text-sm font-medium hover:underline underline-offset-4" href="#contact">
                         Contact
                     </Link>
                 </nav>
@@ -35,7 +35,7 @@ export function X() {
                 <section className="w-full py-12 md:py-24 lg:py-32 border-b">
                     <div className="container flex flex-col items-center gap-4 px-4 text-center md:gap-10 md:px-6">
                         <div className="space-y-2">
-                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I&apos;m Max</h1>
+                            <h1 id="about" className="text-3xl font-bold tracking-tighter sm:text-5xl">Hi, I&apos;m Max</h1>
                             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                                 I build things for the web. I&apos;m a software developer with a passion for computers.
                             </p>
@@ -53,7 +53,7 @@ export function X() {
                     <div className="container px-4 md:px-6">
                         <div className="mx-auto grid max-w-5xl items-start gap-8 lg:grid-cols-2 lg:gap-12">
                             <div className="space-y-4">
-                                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
+                                <h2 id="projects" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
                                 <p className="text-gray-500 dark:text-gray-400">
                                     Here are a few projects I&apos;ve been working on. Want to see more? Follow me on GitHub.
                                 </p>
@@ -95,7 +95,7 @@ export function X() {
                 <section className="w-full py-12 md:py-24 lg:py-32">
                     <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
                         <div className="space-y-3">
-                            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills</h2>
+                            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" id="skills">Skills</h2>
                             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                                 I have experience with the following technologies and frameworks.
                             </p>
