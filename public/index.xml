@@ -11,77 +11,94 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install / Update PaperMod</title>
-      <link>http://localhost:1313/posts/papermod/papermod-installation/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-installation/</guid>
-      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
+      <title>Prerequisite Updates - The Foundation of ESU Patching</title>
+      <link>http://localhost:1313/posts/2/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2/</guid>
+      <description>&lt;p&gt;Before applying any ESU patches to a clean Windows 7 installation, two critical prerequisites must be installed:&lt;/p&gt;
+&lt;h2 id=&#34;kb4474419---sha-2-code-signing-support&#34;&gt;KB4474419 - SHA-2 Code Signing Support&lt;/h2&gt;
+&lt;p&gt;Microsoft transitioned from SHA-1 to SHA-2 hash algorithms for update verification. Without this update, newer patches simply won&amp;rsquo;t install due to signature validation failures.&lt;/p&gt;
+&lt;h2 id=&#34;kb4490628---march-2019-servicing-stack-update&#34;&gt;KB4490628 - March 2019 Servicing Stack Update&lt;/h2&gt;
+&lt;p&gt;The servicing stack is the component responsible for installing Windows updates. This SSU ensures your system can reliably receive and process Microsoft updates.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Features / Mods</title>
-      <link>http://localhost:1313/posts/papermod/papermod-features/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-features/</guid>
-      <description>Learn About All Features in PaperMod</description>
+      <title>Root Certificate Management - The Forgotten Security Layer</title>
+      <link>http://localhost:1313/posts/6/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/6/</guid>
+      <description>&lt;p&gt;While focusing on patches, many administrators overlook root certificate updates. Windows 7 systems require manual certificate store updates to maintain secure communications.&lt;/p&gt;
+&lt;h2 id=&#34;critical-certificates-2025&#34;&gt;Critical Certificates (2025)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft ECC Root Certificate Authority 2017&lt;/li&gt;
+&lt;li&gt;Microsoft RSA Root Certificate Authority 2017&lt;/li&gt;
+&lt;li&gt;Microsoft Time Stamp Root Certificate Authority 2014&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;automation-solution&#34;&gt;Automation Solution&lt;/h2&gt;
+&lt;p&gt;Created &lt;code&gt;Import.cmd&lt;/code&gt; batch script for automated certificate deployment across enterprise environments.&lt;/p&gt;
+&lt;h2 id=&#34;security-impact&#34;&gt;Security Impact&lt;/h2&gt;
+&lt;p&gt;Outdated root certificates can break TLS connections, software installations, and Windows Update functionality.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide For L2</title>
-      <link>http://localhost:1313/posts/markdown-syntax.fr/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax.fr/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>ESU Licensing and Final Updates - End of an Era</title>
+      <link>http://localhost:1313/posts/5/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5/</guid>
+      <description>&lt;p&gt;October 2024 marked the end of Microsoft&amp;rsquo;s x86 support for Windows 7 ESU updates. Only x64 systems receive continued security patches.&lt;/p&gt;
+&lt;h2 id=&#34;current-esu-status-july-2025&#34;&gt;Current ESU Status (July 2025)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Latest x64 Cumulative:&lt;/strong&gt; KB5062632&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final x86 Cumulative:&lt;/strong&gt; KB5044356 (October 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.NET Framework 4.8:&lt;/strong&gt; Requires valid ESU license&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Root Certificates:&lt;/strong&gt; Continuous updates required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-reality-check&#34;&gt;The Reality Check&lt;/h2&gt;
+&lt;p&gt;Organizations still running Windows 7 must plan migration strategies as ESU support narrows to x64-only systems with expensive licensing requirements.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide For RTL</title>
-      <link>http://localhost:1313/posts/markdown-syntax.fa/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax.fa/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>Service Pack 2 (KB3125574) - The Convenience Rollup Deep Dive</title>
+      <link>http://localhost:1313/posts/4/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/4/</guid>
+      <description>&lt;p&gt;Windows 7&amp;rsquo;s &amp;ldquo;Convenience Rollup&amp;rdquo; (KB3125574) is essentially Service Pack 2, containing most post-SP1 updates through April 2016. However, its 500MB+ size and split archive format create deployment challenges.&lt;/p&gt;
+&lt;h2 id=&#34;technical-specifications&#34;&gt;Technical Specifications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x64 Version:&lt;/strong&gt; 5-part split archive&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;x86 Version:&lt;/strong&gt; 4-part split archive&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Includes:&lt;/strong&gt; System Update Readiness Tool integration&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post-Install:&lt;/strong&gt; KB4539601 may appear but is superseded by latest ESU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;enterprise-consideration&#34;&gt;Enterprise Consideration&lt;/h2&gt;
+&lt;p&gt;This single update replaces hundreds of individual patches, making it essential for automated deployment scenarios.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>AD LDS Optional Feature - Hidden Dependencies Exposed</title>
+      <link>http://localhost:1313/posts/3/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/3/</guid>
+      <description>&lt;p&gt;Installing Active Directory Lightweight Directory Services (AD LDS) after Windows 7 SP1 reveals a complex web of dependencies. The Convenience Rollup (SP2) updates don&amp;rsquo;t apply correctly when AD LDS is added post-installation.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;12 different AD LDS-related updates exist, but only 6 are actually required:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;KB975541&lt;/strong&gt; - Core AD LDS Feature&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KB2462137&lt;/strong&gt; - Country Display Fix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KB2539513&lt;/strong&gt; - Repadmin Query Fix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KB2589154&lt;/strong&gt; - MMC RODC Crash Fix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KB2647644&lt;/strong&gt; - Certificate Security Identity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KB3012660&lt;/strong&gt; - Security Update Replacement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;analysis-result&#34;&gt;Analysis Result&lt;/h2&gt;
+&lt;p&gt;Half the available updates are superseded by others, creating unnecessary complexity for system administrators.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/posts/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
-    </item>
-    <item>
-      <title>My first blog post</title>
-      <link>http://localhost:1313/posts/blogpost/</link>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/blogpost/</guid>
-      <description>&lt;p&gt;Hi!&lt;/p&gt;</description>
+      <title>The Windows 7 ESU Challenge - Why Manual Patching Matters</title>
+      <link>http://localhost:1313/posts/1/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/1/</guid>
+      <description>&lt;p&gt;When Microsoft ended support for Windows 7 in January 2020, many organizations found themselves in a bind. Extended Security Updates (ESU) became available, but the patching landscape became complex. Through extensive testing on Windows 7 Ultimate SP1 x64, I discovered that &lt;strong&gt;42 critical updates&lt;/strong&gt; not offered through Windows Update were needed for a fully secure installation.&lt;/p&gt;
+&lt;p&gt;This research project involved analyzing every available patch, testing compatibility, and determining the absolute minimum set required for enterprise environments still running legacy systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
